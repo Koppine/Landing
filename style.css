@@ -1,0 +1,75 @@
+/* style.css */
+body{
+  background: rgb(245,245,245);
+  color: black;
+  font-size: 12px;
+  font-family: Georgia;
+}
+h1{
+  font-family: Chalkduster, fantasy;
+  color: red;
+  font-weight: lighter;
+  font-size: 36px;
+  text-align: center;
+}
+h2 {
+	font-family: Goudy Old Style;
+  color: darkred;
+  font-weight: bold;
+  font-size: 20px;
+}
+a {
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+.card img {
+	width: 200px;
+
+}
+
+#banner{
+  text-align: center;
+  background-image: url("images/hall-big.jpg");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: red;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+#footer li{
+	padding: 10px;
+	color: red;
+}
+
+#footer a{
+	color: white;
+	font-size: 35px;
+	
+}
+#footer a:hover{
+	color: grey;
+	background-color: #B40404;
+	
+}
+.card{
+  padding: 50px;
+  font-weight: lighter;
+}
